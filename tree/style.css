@@ -1,0 +1,455 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #212121;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    height: 600px;
+    width: 100%;
+
+    background-image: url(image/vM_KiE756ok.jpg);
+    border-image: fill 0 linear-gradient(#0001, #212121);
+    display: block;
+
+}
+
+.bottoms {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    justify-content: end;
+    align-items: end;
+    
+}
+.add {
+    background: none;
+    margin-left: 700px;
+}
+
+.button {
+    opacity: 0.7;
+    align-items: center;
+    appearance: none;
+    background-color: #EEF2FF;
+    border-radius: 10px;
+    border-width: 3px;
+    top: 10px;
+    border-color: #355e1b;
+    box-shadow: rgba(1, 42, 23, 0.826) 0 2px 4px, rgba(4, 137, 51, 0.15) 0 7px 13px -3px, #133612 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #103e0c;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 45px;
+    width: 160px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 20px;
+    
+}
+
+.button:focus {
+    opacity: 1;
+    outline: none;
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(5, 142, 14, 0.4) 0 2px 4px, rgba(6, 107, 40, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button:hover {
+    opacity: 1;
+    box-shadow: rgba(7, 135, 50, 0.3) 0 4px 8px, rgba(9, 123, 66, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.card-1 {
+    background-color: white;
+    border-radius: 30px;
+    height: 450px;
+    width: 900px;
+    transform: translateY(10%);
+    justify-content: center;
+    display: block;
+  
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .7;
+}
+
+.container {
+    height: 1550px;
+
+}
+.text-09 {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    
+}
+
+.form-rr {
+    height: 400px;
+    width: 100%;
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+
+.icon-photo {
+
+    margin-left: 530px;
+    transform: translateY(-20%);
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    background-image: url(image/70pg.png);
+}
+
+.text-1 {
+    font-size: 40px;
+    color: black;
+    height: 100px;
+    background-color: white;
+    width: 520px;
+    text-align: center;
+    transform: translateY(180%);
+    padding: 0;
+    opacity: 1;
+    margin-left: 40px;
+
+}
+
+.text-0 {
+
+    display: none;
+    border: 7px solid #185b02;
+    font-size: 18px;
+    color: white;
+    width: 400px;
+    /* Убираем разрыв между колонками */
+    left: 100px;
+    padding: 0;
+    margin: 0 100px 20px 0;
+}
+
+.card {
+    background-color: black;
+    border-radius: 30px;
+    height: 450px;
+    width: 1000px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .7;
+    transition: transform 0.3s ease;
+    overflow: auto;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+.image {
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 1;
+}
+.form-text1 {
+    justify-content: center;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    width: 800px;
+    margin-left: 230px;
+    border-bottom: solid green ;
+}
+
+.text {
+    color: white;
+    /* изменяем цвет текста на белый, чтобы он был виден на черном фоне */
+    font-size: 22px;
+    width: 40%;
+    transform: translateY(-50%);
+    /* смещаем текст на половину своей высоты вверх, чтобы он был точно посередине */
+    margin: 240px 50px 0 435px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    background-color: black;
+
+
+}
+
+.form-text {
+    margin-top: 200px;
+    justify-content: center;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    width: 800px;
+    background: none;
+    transform: translateX(30%);
+    border-bottom: solid green ;
+
+    
+}
+
+.text-2 {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    
+
+}
+
+
+
+.earth {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    
+
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-ong {
+    color: white;
+    background: none;
+    font-size: larger;
+    margin-left: 100px;
+    transform: translateY(30%);
+}
+
+/* laptop L */
+@media screen and (max-width: 1440px) {
+    .card-1 {
+        transform: translateX(-10%);
+        transform: translateY(10%)
+    }
+    .card { 
+        transform:translateX(0%);
+    }
+    .add {
+        transform: translateX(20%);
+    }
+    .form-text1 {
+        margin-left: 320px;
+    }
+    .form-text {
+        margin-left: 90px;
+    }
+
+    
+}
+@media screen and (max-width: 1280px) {
+    .card-1 {
+        transform: translateX(0%);
+        transform: translateY(10%);
+    }
+    .card {
+        transform: translateX(0%);
+
+    }
+}
+/* normal laptop */
+@media screen and  (max-width: 1024px) {
+    .add {
+        margin-left: 240px;
+
+    }
+    .form-text1 {
+    transform: translateX(-24%);
+   }
+   .form-text {
+        transform: translateX(3%);
+   }
+    
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        height: 1000px;
+    }
+    .bottoms {
+        height: 50px;
+    }
+    .add {
+        display: none;
+    }
+    .header {
+        height: 400px;
+    }
+    .icon-photo {
+        margin-left: 300px;
+        transform: translateY(-37%);
+        height: 200px;
+        width: 150px;
+    }
+    .text-1 {
+        font-size: 15px;
+        width: 240px;
+        transform: translateY(110%);
+    }
+    .card-1 {
+        height: 250px;
+        width: 500px;
+    }
+    .form-rr {
+        margin-top: 140px;
+        height: 300px;
+    }
+    .form-text1 {
+        height: 100px;
+        width: 500px;
+        transform: translateX(-35%);
+    }
+    .text-09 {
+        font-size: 15px;
+    }
+    .card {
+        height: 275px;
+        width: 600px;
+    }
+    .image {
+        height: 200px;
+        width: 170px;
+        margin-top: 40px;
+    }
+    .text {
+        font-size: 15px;
+        margin-left: 300px;
+        margin-top: 130px;
+    }
+    .form-text {
+        margin-left: 125px;
+        margin-top: 90px;
+        width: 500px;
+        height: 170px;
+    }
+    .text-2 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .earth {
+        margin-top: 50px;
+        height: 120px;
+    }
+    
+}
+/* mobile L */
+@media screen and (max-width: 426px) {
+    .container {
+        height: 1111px;
+    }
+    .bottoms {
+        width: 425px;
+    }
+    .card-1 {
+        height: 200px;
+        width: 350px;
+        transform: translateY(30%);
+    }
+    .icon-photo {
+        display: none;
+
+    }
+    .text-1 {
+        height: 20px;
+        transform: translateY(300%);
+        margin-left: 55px;
+        font-size: 25px;
+    }
+    .form-text1 {
+        margin-left: 200px;
+        margin-bottom: 100px;
+        border: none;
+    }
+    .text-09 {
+        font-size: 20px;
+        width: 400px;
+        margin-left: 0px;
+        border: none;
+    }
+    .card {
+        width: 400px;
+        height: 240px;
+        margin-top: 100px;
+    }
+    .image {
+        height: 150px;
+        width: 130px;
+        margin-left: 30px;
+    }
+    .text {
+        font: 10px;
+        margin-left: 185px;
+        height: 100px;
+        width: 200px;
+        margin-right: 0px;
+        margin-top: 100px;
+    }
+    .form-text {
+       
+        margin-left: 0px;
+        width: 400px;
+        height: 40px;
+       
+    }
+    .text-2 {
+        font-size: 20px;
+    }
+}
+/* mobile L */
+@media screen and (max-width: 375px) {
+    
+}
+@media screen and (max-width: 320px) {
+
+}
+
+
+
+
+
